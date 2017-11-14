@@ -1,0 +1,48 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+div.btn-group{
+    float:right;
+}
+
+#footer {
+  width: 984px;
+  position: absolute;
+  bottom: 0px;
+  height: 71px;
+  border-top: 8px solid #254A73;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #343434
+}
+
+#footer ul {
+  margin: 15px 0 10px 0;
+  text-align: center
+}
+
+#footer li {
+  display: inline;
+  list-style-type: none;
+}
+
+#footer li a {
+  color: #343434;
+  text-decoration: none;
+  margin: 0 5px
+}
+
+#footer li a:visited {
+  text-decoration: none
+}
+
+#footer li a:hover {
+  text-decoration: underline
+}
+
+
+#footer p {
+  text-align: center
+}

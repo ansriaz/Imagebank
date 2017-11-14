@@ -1,0 +1,46 @@
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: center;
+}
+
+div.gallery {
+    height: 227px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+div.pagination {
+  margin: 5px;
+}
+
+.center {
+    display:table-cell;
+    vertical-align:middle;
+    float:none;
+}
+
+div.video video {
+    width: 300px;
+    margin: 10px;
+    display:table-cell;
+    vertical-align:middle;
+    float: left;
+    margin: 10px;
+}
+
+div.playlist {
+    white-space: nowrap;
+    overflow: hidden;
+}
