@@ -16,14 +16,14 @@ php.ini file
 
 Note: php.ini file i used for mac is also available in root folder just to match the enabled extensions.
 
-# MySQL
+## MySQL
 1. User: “root” == Password: “root”
 2. backup in dump folder
 3. Currently using socket on mac and TCP/IP on windows
 4. No reference key 
 5. “php artisan migrate” to migrate data on new installation and then import data
 
-# MATLAB
+## MATLAB
 1. Install MATLAB in hosting machine.
 
 ## Others
@@ -53,10 +53,10 @@ example: “php artisan serve --host=192.163.168.20 --port=80”
 
 
 ## API Keys
-# Flickr
+### Flickr
 Create an application on Flickr dev and then use API key and secret in /app/Logic/Services/FlickrService/FlickrCrawler
 
-# Google
+### Google
 1. Create an application on Google developer console
 2. Enable services for the required API (Youtube, Google+, Custom Search Engine)
 3. Copy and paste API key and secret in /app/Logic/Services/GoogleServices/* (in respective file)
