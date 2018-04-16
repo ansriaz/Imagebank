@@ -38,7 +38,7 @@ class FlickrToDB
 
         $dataset_name = 'flickr';
         if (!file_exists(public_path().'/images/'.$dataset_name)) {
-            mkdir($dir, 0777, true);
+            mkdir(public_path().'/images/'.$dataset_name, 0777, true);
         }
         $dataset_id = $this->addDatasetOfImages($dataset_name,'images added by flickr crawler');
         // Log::info($dataset_id);
