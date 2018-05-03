@@ -72,7 +72,7 @@ Thank you for considering this awesome platform and would love to have contribut
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The ImageBank is open-sourced licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 ## Thanks
 
